@@ -174,6 +174,12 @@ public interface PmsTeamFacade {
 	 * 获取首页推荐供应商列表
 	 */
 	public List<PmsTeam> teamRecommendList();
+	/**
+	 * 获取所有 team 信息
+	 * 
+	 * @return
+	 */
+	public List<PmsTeam> getAllTeamName();
 
 
 
