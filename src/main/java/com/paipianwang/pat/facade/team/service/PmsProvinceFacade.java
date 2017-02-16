@@ -15,6 +15,8 @@ public interface PmsProvinceFacade {
 
 	List<PmsProvince> getAll();
 
+	PmsProvince findProvinceById(final String provinceId);
+
 
 	
 

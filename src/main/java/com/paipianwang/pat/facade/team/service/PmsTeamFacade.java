@@ -180,6 +180,10 @@ public interface PmsTeamFacade {
 	 * @return
 	 */
 	public List<PmsTeam> getAllTeamName();
+	/**
+	 * 基本信息解除绑定第三方
+	 */
+	public boolean teamInfoUnBind(PmsTeam team);
 
 
 
