@@ -6,7 +6,6 @@ import com.paipianwang.pat.facade.team.entity.PmsCity;
 
 /**
  * city Dubbo服务接口
- * @author Jack
  * @version 1.0
  *
  */

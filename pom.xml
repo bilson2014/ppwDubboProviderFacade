@@ -25,5 +25,10 @@
 			<artifactId>pat-common</artifactId>
 			<version>${pat-common.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.paipianwang.pat</groupId>
+			<artifactId>pat-facade-right</artifactId>
+			<version>${pat-facade-right.version}</version>
+		</dependency>
 	</dependencies>
 </project>
