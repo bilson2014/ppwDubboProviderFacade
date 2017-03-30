@@ -1,8 +1,8 @@
 package com.paipianwang.pat.facade.team.entity;
 
-import com.paipianwang.pat.facade.right.entity.Customer;
+import com.paipianwang.pat.facade.right.entity.PmsCustomer;
 
-public class PmsTeam extends Customer{
+public class PmsTeam extends PmsCustomer{
 	private static final long serialVersionUID = 1L;
 	/**团队名称**/
 	private String teamName = null;
