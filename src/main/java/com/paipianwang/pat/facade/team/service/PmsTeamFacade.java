@@ -184,6 +184,8 @@ public interface PmsTeamFacade {
 	 * 基本信息解除绑定第三方
 	 */
 	public boolean teamInfoUnBind(PmsTeam team);
+	
+	public List<PmsTeam> listWithParam(final Map<String, Object> paramMap);
 
 
 
