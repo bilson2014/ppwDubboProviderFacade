@@ -185,6 +185,11 @@ public interface PmsTeamFacade {
 	 */
 	public boolean teamInfoUnBind(PmsTeam team);
 	
+	/**
+	 * 根据搜索参数获取供应商列表
+	 * @param paramMap 搜索参数
+	 * @return
+	 */
 	public List<PmsTeam> listWithParam(final Map<String, Object> paramMap);
 
 
