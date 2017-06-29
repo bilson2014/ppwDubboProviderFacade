@@ -7,7 +7,6 @@ import java.io.Serializable;
  *2016-10-18 15:57:42
  */
 public class DIffBean implements Serializable{
-
 	private static final long serialVersionUID = 1L;
 	private String property;//属性字段
 	private String propertyName;//属性描述
