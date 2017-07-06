@@ -187,6 +187,7 @@ public interface PmsTeamFacade {
 	
 	/**
 	 * 根据搜索参数获取供应商列表
+	 * 组织供应商业务信息
 	 * @param paramMap 搜索参数
 	 * @return
 	 */
