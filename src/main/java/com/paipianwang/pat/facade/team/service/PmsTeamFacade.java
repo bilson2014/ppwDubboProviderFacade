@@ -131,6 +131,18 @@ public interface PmsTeamFacade {
 	 * 保存 图片路径
 	 */
 	public long saveTeamPhotoUrl(final PmsTeam team);
+	/**
+	 * 保存营业执照/身份证图片路径
+	 */
+//	public long saveCertificateUrl(final PmsTeam team);
+//	/**
+//	 * 保存法人手持身份证正面图片路径
+//	 */
+//	public long saveIdCardfrontUrl(final PmsTeam team);
+//	/**
+//	 * 保存法人手持身份证背面图片路径
+//	 */
+//	public long saveIdCardbackUrl(final PmsTeam team);
 
 	/**
 	 * 更新供应商信息
@@ -194,5 +206,17 @@ public interface PmsTeamFacade {
 	public List<PmsTeam> listWithParam(final Map<String, Object> paramMap);
 
 
+	/**
+	 * 保存（第一次）/更新第一步注册信息
+	 * @param team
+	 * @return
+	 */
+	public PmsTeam addOrUpdateStep1(PmsTeam team);
+	/**
+	 * 更新第二步注册信息
+	 * @param team
+	 * @return
+	 */
+	public PmsTeam updateStep2(PmsTeam team);
 
 }
