@@ -34,6 +34,7 @@ public class PmsTeamTmp extends BaseEntity{
 
 	private String teamProvinceName;
 	private String teamCityName;
+	private String skill;
 
 	public String getTeamProvinceName() {
 		return teamProvinceName;
@@ -232,6 +233,14 @@ public class PmsTeamTmp extends BaseEntity{
 
 	public void setTeamPhotoUrl(String teamPhotoUrl) {
 		this.teamPhotoUrl = teamPhotoUrl;
+	}
+
+	public String getSkill() {
+		return skill;
+	}
+
+	public void setSkill(String skill) {
+		this.skill = skill;
 	}
 
 }
