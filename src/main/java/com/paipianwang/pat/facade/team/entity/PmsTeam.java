@@ -1,7 +1,5 @@
 package com.paipianwang.pat.facade.team.entity;
 
-import java.beans.Transient;
-
 import com.paipianwang.pat.facade.right.entity.PmsCustomer;
 
 public class PmsTeam extends PmsCustomer {
@@ -72,24 +70,23 @@ public class PmsTeam extends PmsCustomer {
 	private Integer recommendSort;
 	private long teamId = 0l;
 	private int city = 0; // 城市
-	
-	/**-----非数据库字段 begin---------*/
+
+	/** -----非数据库字段 begin--------- */
 
 	private String thirdLoginType = null; // 第三方登录类型
 	// 再次审核 状态
 	private Integer checkStatus; // 再次审核状态 tmp表冗余字段 0未审核 1审核通过 2审核失败
 	private String checkDetails;// 再次审核详情
-	
 
 	private String verification_code = null; // 短信验证码
-	
+
 	private String loginType;// 登录方式
-	
+
 	/** 业务范围 **/
 	private String business = null;
-	
-	/**-----非数据库字段 end--------*/
-	
+
+	/** -----非数据库字段 end-------- */
+
 	public long getTeamId() {
 		return teamId;
 	}
@@ -536,4 +533,5 @@ public class PmsTeam extends PmsCustomer {
 			return false;
 		return true;
 	}
+
 }
