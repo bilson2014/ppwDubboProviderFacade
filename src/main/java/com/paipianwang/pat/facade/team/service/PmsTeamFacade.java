@@ -218,5 +218,11 @@ public interface PmsTeamFacade {
 	 * @return
 	 */
 	public PmsTeam updateStep2(PmsTeam team);
+	/**
+	 * 更新注册提交
+	 * @param teamId
+	 * @return
+	 */
+	public long updateFlag(long teamId,int flag);
 
 }
