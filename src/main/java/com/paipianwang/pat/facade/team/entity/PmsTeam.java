@@ -83,6 +83,8 @@ public class PmsTeam extends PmsCustomer {
 	private String idCardfrontUrl=null;
 	/**法人手持身份证-反面**/
 	private String idCardbackUrl=null;
+	/**固定电话**/
+	private String telNumber=null;
 	
 	/**-----非持久化字段 begin---------*/
 
@@ -519,6 +521,14 @@ public class PmsTeam extends PmsCustomer {
 
 	public void setIdCardbackUrl(String idCardbackUrl) {
 		this.idCardbackUrl = idCardbackUrl;
+	}
+
+	public String getTelNumber() {
+		return telNumber;
+	}
+
+	public void setTelNumber(String telNumber) {
+		this.telNumber = telNumber;
 	}
 
 	public boolean equals(Object obj) {
