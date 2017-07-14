@@ -224,5 +224,12 @@ public interface PmsTeamFacade {
 	 * @return
 	 */
 	public long updateFlag(long teamId,int flag);
+	
+	/**
+	 * 在供应商流程注册时，点击协议的同意按钮，仅保存供应商电话和密码
+	 * @param team
+	 * @return teamId
+	 */
+	public long registerAtTeamRegisterFlow(PmsTeam team);
 
 }
