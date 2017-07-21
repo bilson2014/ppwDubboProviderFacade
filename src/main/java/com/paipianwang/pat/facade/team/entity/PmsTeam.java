@@ -99,6 +99,9 @@ public class PmsTeam extends PmsCustomer {
 
 	/** 业务范围 **/
 	private String business = null;
+	
+	/**产品线显示名称**/
+	private String productLineName=null;
 
 	/** -----非数据库字段 end-------- */
 	
@@ -529,6 +532,15 @@ public class PmsTeam extends PmsCustomer {
 
 	public void setTelNumber(String telNumber) {
 		this.telNumber = telNumber;
+	}
+	
+
+	public String getProductLineName() {
+		return productLineName;
+	}
+
+	public void setProductLineName(String productLineName) {
+		this.productLineName = productLineName;
 	}
 
 	public boolean equals(Object obj) {
