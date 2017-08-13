@@ -231,5 +231,12 @@ public interface PmsTeamFacade {
 	 * @return teamId
 	 */
 	public long registerAtTeamRegisterFlow(PmsTeam team);
+	
+	/**
+	 * 根据供应商名称模糊匹配供应商集合
+	 * @param teamName
+	 * @return
+	 */
+	public List<PmsTeam> listByTeamName(String teamName);
 
 }
