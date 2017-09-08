@@ -70,6 +70,10 @@ public class PmsTeam extends PmsCustomer {
 	private Integer recommendSort;
 	private long teamId = 0l;
 	private int city = 0; // 城市
+	/** 团队显示名称 **/
+	private String displayName = null;
+	/** 团队显示图片 **/
+	private String displayImg = null;
 
 	/** -----非数据库字段 begin--------- */
 	
@@ -541,6 +545,22 @@ public class PmsTeam extends PmsCustomer {
 
 	public void setProductLineName(String productLineName) {
 		this.productLineName = productLineName;
+	}
+
+	public String getDisplayName() {
+		return displayName;
+	}
+
+	public void setDisplayName(String displayName) {
+		this.displayName = displayName;
+	}
+
+	public String getDisplayImg() {
+		return displayImg;
+	}
+
+	public void setDisplayImg(String displayImg) {
+		this.displayImg = displayImg;
 	}
 
 	public boolean equals(Object obj) {
